@@ -1,4 +1,6 @@
 Rails.application.routes.draw do
+  resources :artists
+
   resources :songs do
   #->Prelang (voting/acts_as_votable)
   member do
